@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natures-Platter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 
     <!-- google-gont -->
 
@@ -20,6 +22,10 @@
         .font-family{
             font-family: "Sora", serif;
         }
+
+        .animate__zoomIn {
+    animation-duration: 7s ;
+  }
     </style>
 
 
@@ -30,6 +36,8 @@
               colors: {
                 clifford: '#da373d',
                 'shop-primary': '#179800',
+                
+
               }
             }
           }
@@ -44,15 +52,11 @@
             <div class="navbar bg-base-100 border-b-4 sm:border-b-4 sm:border-green-500 md:border-0 lg:border-0">
                 <div class="flex-1 ">
                   <div class="dropdown sm:pl-4 md:pl-4">
-                    
-                   
                   </div>
-                  
                     <img src="c2-assets/logo-header.png" alt="">
-                  
                 </div>
                 <div class="navbar-center hidden lg:flex  justify-center sm:hidden">
-                  <ul class="menu menu-horizontal flex gap-4 font-fam  text-2xl lg:pr-56">
+                  <ul class="menu menu-horizontal flex gap-4 font-fam  text-2xl lg:pr-80">
                     <li><a>Product</a></li>
                     <li><a>Services</a></li>
                     <li><a>Contact Us</a></li>
@@ -69,6 +73,23 @@
                 </div>
               </div>
          </nav>
+
+         <!-- hero -->
+         <div class="hero w-full h-auto md:h-[1100px] lg:pt-8">
+            <div class="hero-content text-center">
+              <div class="">
+                <h1 class="sm:text-4xl lg:text-5xl font-bold animate__animated animate__zoomIn">
+                    Freshness <span class="text-shop-primary">You Can</span> <br>
+                    <span class="text-shop-primary">Count</span> On, Prices You’ll Love!
+                  </h1>
+                  
+                <p class="py-6">
+                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!
+                </p>
+                <img src="c2-assets/hero-vegetables.png" alt="">
+              </div>
+            </div>
+          </div>
 
     </header>
 
