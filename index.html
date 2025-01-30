@@ -36,6 +36,7 @@
               colors: {
                 clifford: '#da373d',
                 'shop-primary': '#179800',
+                'bg-primary': '#F5F5F5',
                 
 
               }
@@ -44,9 +45,9 @@
         }
       </script>
 </head>
-<body>
+<body class="font-family">
     
-    <header class="md:container mx-auto">
+    <header class="md:container mx-auto bg-bg-primary">
         <!-- nav-bar -->
         <nav>
             <div class="navbar bg-base-100 border-b-4 sm:border-b-4 sm:border-green-500 md:border-0 lg:border-0">
@@ -86,16 +87,52 @@
                 <p class="py-6">
                     Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!
                 </p>
-                <img src="c2-assets/hero-vegetables.png" alt="">
+                    <img src="c2-assets/hero-vegetables.png" alt="">
               </div>
             </div>
           </div>
-
     </header>
 
+    <!-- main-Section -->
 
-    <main>
+    <main class="md:container mx-auto">
+        <!-- service -->
+         <section class="lg:my-14 p-10 lg:space-y-8 sm:space-y-4">
+            <h1 class="lg:text-4xl sm:text-3xl font-bold pb-6 text-shop-primary">Services</h1>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 lg:gap-4 gap-4 lg:pl-26">
+                <div class="card bg-bg-primary hover:bg-gradient-to-r from-yellow-200 to-orange-600">
+                    <figure class="px-10 pt-10">
+                      <img src="c2-assets/service.png" alt="">
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-3xl font-bold">24/7 Services </h2>
+                      <p class=" font-2xl text-black">Get fresh, quality vegetables delivered to your doorstep, anytime, 24/7.
+                        We’re always here to provide you with the best produce, day or night!</p>
+                    </div>
+                  </div>
 
+                  <div class="card bg-bg-primary hover:bg-gradient-to-r from-yellow-200 to-orange-600">
+                    <figure class="px-10 pt-10">
+                      <img src="c2-assets/delivery.png" alt="">
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-3xl font-bold">Fast Delivery </h2>
+                      <p class=" font-2xl text-black">Enjoy quick and reliable delivery of the freshest produce, right when you need it!</p>
+                    </div>
+                  </div>
+
+                  <div class="card bg-bg-primary hover:bg-gradient-to-r from-yellow-200 to-orange-600">
+                    <figure class="px-10 pt-10">
+                      <img src="c2-assets/healthy.png" alt="">
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-3xl font-bold">Healthy Products </h2>
+                      <p class=" font-2xl text-black">Organic vegetables delivered straight to your door, ensuring the healthiest options for your family..
+                        We’re always here to provide you with the best produce, day or night!</p>
+                    </div>
+                  </div>
+            </div>
+         </section>
     </main>
 
     <footer>
