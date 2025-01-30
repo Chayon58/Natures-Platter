@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natures-Platter</title>
+
+    <!-- google-gont -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- DaisyUI + Tailwind -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .font-family{
+            font-family: "Sora", serif;
+        }
+    </style>
+
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'shop-primary': '#179800',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    
+    <header class="md:container mx-auto">
+        <!-- nav-bar -->
+        <nav>
+            <div class="navbar bg-base-100 border-b-4 sm:border-b-4 sm:border-green-500 md:border-0 lg:border-0">
+                <div class="flex-1 ">
+                  <div class="dropdown sm:pl-4 md:pl-4">
+                    
+                   
+                  </div>
+                  
+                    <img src="c2-assets/logo-header.png" alt="">
+                  
+                </div>
+                <div class="navbar-center hidden lg:flex  justify-center sm:hidden">
+                  <ul class="menu menu-horizontal flex gap-4 font-fam  text-2xl lg:pr-56">
+                    <li><a>Product</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class=" hidden lg:flex lg:space-x-4">
+                    <img  src="c2-assets/search-icon.png" alt="">
+                    <img  src="c2-assets/bag-icon.png" alt="">
+                  <a class="btn btn-outline btn-success ">Login</a>
+                  <a class="btn bg-shop-primary text-white ">Register</a>
+                </div>
+                <div class="md:hidden lg:hidden">
+                    <img src="c2-assets/bars-3.png" alt="">
+                </div>
+              </div>
+         </nav>
+
+    </header>
+
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
